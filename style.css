@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+body {
+  font-family: "Sans-serif";
+  line-height: 1.5;
+  background-color: #ADD8E6;
+}
+
+h1 {
+  font-family: Lobster, "Open Sans";
+  line-height: 1;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#description {
+  font-style: italic;
+  font-size: 20px;
+  margin: 0px 0px 20px 0px;
+  text-align: center;
+}
+
+form {
+  padding: 2em;
+  margin: 0 auto;
+  width: 60%;
+  border: 1px solid #CCC;
+  border-radius: 10px;
+  background-color: #FFF;
+}
+
+label {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  font-size: 20px;
+}
+
+input[type=text], 
+input[type=number], 
+input[type=email], 
+select, 
+textarea {
+  line-height: 1.5;
+  margin-bottom: 10px;
+  width: 98%;
+  background-color: #D3D3D3;
+  border: 5px;
+  border-radius: 3px;
+  padding: 8px;
+}
+
+input[type=radio],
+input[type=checkbox] {
+  margin: 10px;
+}
+
+select {
+  height: 38px;
+  width: 100%;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  background-color: #37af65;
+  border: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#submit {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer {
+  line-height: 1;
+  font-weight: bold;
+  text-align: right;
+}
